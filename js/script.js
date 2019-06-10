@@ -1,3 +1,7 @@
+var doCoolStuff = function() {
+    document.getElementById('cool').classname = 'cool red';
+}
+
 var car = {
     make: 'VW',
     type: 'Polo',
