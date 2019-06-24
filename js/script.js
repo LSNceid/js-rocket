@@ -1,6 +1,6 @@
-var doCoolStuff = function() {
-    var currentClassName = document.getElementById('cool').classname;
 
+var doCoolStuff = function() {
+    var currentClassName = document.getElementById('cool');
     if (currentClassName == 'cool') {
         document.getElementById('cool').classname = 'cool red';
     } else {
