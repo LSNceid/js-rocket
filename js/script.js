@@ -1,7 +1,7 @@
 var doCoolStuff = function() {
-    var currentCLassName = document.getElementById('cool').classname;
+    var currentClassName = document.getElementById('cool').classname;
 
-    if (currentCLassName == 'cool') {
+    if (currentClassName == 'cool') {
         document.getElementById('cool').classname = 'cool red';
     } else {
         document.getElementById('cool').classname = 'cool'
