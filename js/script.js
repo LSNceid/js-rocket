@@ -1,5 +1,11 @@
 var doCoolStuff = function() {
-    document.getElementById('cool').classname = 'cool red';
+    var currentCLassName = document.getElementById('cool').classname;
+
+    if (currentCLassName == 'cool') {
+        document.getElementById('cool').classname = 'cool red';
+    } else {
+        document.getElementById('cool').classname = 'cool'
+    }
 }
 
 var car = {
