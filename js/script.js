@@ -1,10 +1,10 @@
 var doCoolStuff = function() {
-    var currentClassName = document.getElementById('cool').classname;
+    var currentClassName = document.getElementById("cool").classname;
 
-    if (currentClassName == 'cool') {
-        document.getElementById('cool').classname = 'cool red';
+    if (currentClassName == "cool") {
+        document.getElementById("cool").classname = "cool red";
     } else {
-        document.getElementById('cool').classname = 'cool'
+        document.getElementById("cool").classname = "cool";
     }
 }
 
